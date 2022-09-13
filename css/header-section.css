@@ -1,6 +1,7 @@
 
 .header-section {
   background-color: var(--opacity100-green);
+  padding: 30px 0;
 }
 .header-section-container {
   max-width: 1200px;
@@ -52,9 +53,32 @@
   margin-top: 25px;
 }
 .section-rigth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 2;
-  background-image: url('../img/Group.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
+  padding-bottom: 40px;
+}
+.section-rigth-container img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1100px){
+  .section-left-container .section-left-heading {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .section-left-container .section-left-text {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+  .section-left-container .section-left-button {
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 940px) {
+  .header-section-container {
+    flex-direction: column-reverse;
+  }
 }

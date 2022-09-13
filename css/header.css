@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 40px;
+  padding: 30px 20px;
   flex-wrap: wrap;
 }
 .header .container .nav .nav-ul {
@@ -27,4 +27,27 @@
   font-size: 1.25rem;
   line-height: 125%;
   color: var(--white);
+}
+.menu-mobile {
+  display: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:1140px){
+  .header .container .nav .nav-ul li a {
+    font-size: 1.1rem;
+  }
+  .header .container {
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width:660px){
+  .header .container .nav {
+    display: none;
+  }
+  .menu-mobile {
+    display: block;
+  }
 }
