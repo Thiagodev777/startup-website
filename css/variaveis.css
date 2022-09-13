@@ -1,0 +1,22 @@
+:root {
+  --white: #FFF;
+
+  --opacity100-black: #212529;
+  --opacity100-green: #74c69d;
+
+  --opacity75-black: #21252975;
+  --opacity75-green: #74c69d75;
+
+  --opacity50-black: #21252950;
+  --opacity50-green: #74c69d50;
+
+  --opacity25-black: #21252925;
+  --opacity25-green: #74c69d25;
+
+  /* FALTA CONFIGURAÇÃO DE FONTS */
+  
+  /* 
+  font-family: 'Crimson Text', serif;
+  font-family: 'Work Sans', sans-serif; 
+  */
+}
